@@ -31,7 +31,19 @@ Devanshi (4 yrs PMM, PhD in narrative & discourse, Product School certified, UGC
 - Scroll-reveal animations, magnetic button hovers, image hover scale, paper-grain texture
 - 100% pass on testing_agent_v3 (iteration_1.json)
 
-## Iteration 2 (2025-12) — Content + creative polish
+## Iteration 3 (2025-12) — v3 revision (Trust Wedge, removed Lahori, depth components)
+- **REMOVED Lahori Zeera** entirely (case + gallery tile)
+- **ADDED flagship case 01: "The Trust Wedge"** — AI dev tools positioning teardown, with full prescribed copy, projected RESULT label, pull-quote ("You can't out-fast the incumbent. You can out-trust them."), and expandable Before/After Positioning + Messaging House (Provenance/Control/Verifiable) artifact panel
+- **Softened RESULT attribution** on Luco/Moxie/Athena/JSS (contributed to / supported / helped earn / coincided with)
+- **Moxie image** swapped to a brand-neutral abstract Pexels asset (no Curology branding)
+- **Fixed empty Competitive teardown tile** in gallery (now populated: "7 players · 1 unowned axis · Speed vs trust positioning map")
+- **Replaced ₹10 gallery poster** with "trust beats speed." poster
+- **Contact text**: "senior PMM" → "PMM, brand strategy, and founder-marketer"
+- **NEW section: Testimonial** — placeholder pull-quote with [name]/[role]/[company] slots for Devanshi to fill
+- **NEW section: POV ("How I think about positioning")** — Devanshi's headshot + four-paragraph essay + "Position once. Story everywhere. Measure everything." sign-off
+- **NEW section: Battlecard** — dark theme cross-functional sales-enablement artifact (3 rows: Your move / Incumbent / Play + Single source of truth footer)
+- Final section order: Nav · Hero · Marquee · About · Testimonial · SelectedWork · POV · Battlecard · CampaignGallery · Contact · Footer
+- 100% pass on testing_agent_v3 (iteration_3.json) — 14/14 acceptance criteria met
 - Added 5th case study: **Lahori Zeera** (₹10 vs $10B narrative, with cursive takeaway line)
 - Added Roburae-style **"your problems / our solution"** comparison block inside Moxie Beauty case
 - Replaced Moxie image with a non-person skincare bottle photo
