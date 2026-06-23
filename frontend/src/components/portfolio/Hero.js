@@ -27,7 +27,7 @@ export default function Hero() {
                 <span className="inline-block w-12 h-px bg-[#7A1423]" />
                 <span>Portfolio · MMXXV</span>
                 <span className="hidden md:inline">·</span>
-                <span className="hidden md:inline">Bangalore / Remote</span>
+                <span className="hidden md:inline">Delhi · Remote</span>
             </div>
 
             <h1
@@ -53,8 +53,8 @@ export default function Hero() {
                         data-testid={PORTFOLIO.heroThesis}
                         className="font-display text-2xl md:text-3xl leading-snug text-[#1A1A1A] max-w-[36ch]"
                     >
-                        I turn complicated products into stories people repeat —
-                        positioning rooted in research, narrative shaped by a
+                        I turn complicated products into stories people repeat.
+                        Positioning rooted in research, narrative shaped by a
                         <span className="italic-accent text-[#7A1423]"> PhD in discourse</span>,
                         results measured in revenue.
                     </p>
@@ -96,14 +96,14 @@ export default function Hero() {
                     <Vertical
                         n="02"
                         title="Beauty & Wellness"
-                        body="Science-backed brands that earn trust — efficacy claims, ingredient stories, ritual building."
+                        body="Science-backed brands that earn trust. Efficacy claims, ingredient stories, ritual building."
                         testId={PORTFOLIO.heroVerticalWellness}
                         color="#7A1423"
                     />
                     <Vertical
                         n="03"
                         title="Cosmetics"
-                        body="High-desire, high-margin launches — shade, sensorial, social commerce."
+                        body="High-desire, high-margin launches. Shade, sensorial, social commerce."
                         testId={PORTFOLIO.heroVerticalCosmetics}
                         color="#C98938"
                     />

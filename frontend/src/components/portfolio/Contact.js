@@ -1,8 +1,7 @@
 import { PORTFOLIO } from "@/constants/testIds";
-import { Mail, Linkedin, Download, ArrowUpRight } from "lucide-react";
+import { Mail, Download, ArrowUpRight } from "lucide-react";
 
-const EMAIL = "devanshi.pmm@gmail.com";
-const LINKEDIN = "https://www.linkedin.com/in/devanshi/";
+const EMAIL = "devanshibalyan@gmail.com";
 
 export default function Contact() {
     return (
@@ -37,7 +36,11 @@ export default function Contact() {
                     <p className="text-base md:text-lg leading-relaxed text-[#F5F2EB]/80 max-w-[52ch]">
                         I’m open to senior PMM, brand strategy, and founder-marketer roles
                         at startups in AI, beauty &amp; wellness, and cosmetics. Full-time,
-                        contract, or a 4-week launch sprint — I’ll match the brief.
+                        contract, or a 4-week launch sprint. I’ll match the brief.
+                    </p>
+
+                    <p className="mt-8 font-script text-3xl md:text-4xl text-[#C98938]">
+                        Based in Delhi, available worldwide.
                     </p>
                 </div>
 
@@ -51,14 +54,6 @@ export default function Contact() {
                             testId={PORTFOLIO.contactEmail}
                         />
                         <ContactRow
-                            href={LINKEDIN}
-                            label="LinkedIn"
-                            value="/in/devanshi"
-                            Icon={Linkedin}
-                            external
-                            testId={PORTFOLIO.contactLinkedin}
-                        />
-                        <ContactRow
                             href="#"
                             label="Curriculum Vitae"
                             value="Download PDF"
@@ -66,7 +61,7 @@ export default function Contact() {
                             testId={PORTFOLIO.contactCv}
                             onClick={(e) => {
                                 e.preventDefault();
-                                alert("CV will be linked here — drop me an email and I'll send the latest copy.");
+                                alert("CV will be linked here. Drop me an email and I'll send the latest copy.");
                             }}
                         />
                     </ul>
@@ -81,14 +76,12 @@ export default function Contact() {
     );
 }
 
-function ContactRow({ href, label, value, Icon, external, testId, onClick }) {
+function ContactRow({ href, label, value, Icon, testId, onClick }) {
     return (
         <li>
             <a
                 href={href}
                 onClick={onClick}
-                target={external ? "_blank" : undefined}
-                rel={external ? "noopener noreferrer" : undefined}
                 data-testid={testId}
                 className="group flex items-center justify-between gap-4 py-5 border-b border-[#F5F2EB]/15 hover:border-[#C98938] transition-colors"
             >

@@ -9,7 +9,7 @@ export default function Footer() {
                     © {new Date().getFullYear()} · Product Marketing &amp; Brand Strategy · All work made with intent.
                 </p>
                 <p className="text-[11px] uppercase tracking-[0.28em]">
-                    Designed &amp; written by Devanshi
+                    Designed &amp; written by Devanshi · Delhi
                 </p>
             </div>
         </footer>

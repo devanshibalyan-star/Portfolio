@@ -45,7 +45,7 @@ export default function About() {
                     <div className="space-y-5 text-base md:text-lg leading-relaxed text-[#1A1A1A] max-w-[58ch]">
                         <p>
                             Four years in product marketing taught me one thing: the best
-                            positioning is not the loudest — it’s the most listened-to.
+                            positioning is not the loudest, it’s the most listened-to.
                             I sit between the founder’s vision, the engineer’s capability,
                             and the customer’s unspoken need.
                         </p>
