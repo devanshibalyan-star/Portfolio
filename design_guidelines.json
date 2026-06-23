@@ -1,0 +1,87 @@
+{
+  "theme": "light",
+  "archetype": "5 (Luxury - Editorial / Artistic)",
+  "colors": {
+    "background": "#F5F2EB",
+    "surface": "#FCFBF8",
+    "primary": "#7A1423",
+    "secondary": "#C98938",
+    "accent": "#120A8F",
+    "text_primary": "#1A1A1A",
+    "text_secondary": "#4A4A4A",
+    "border": "#E5E0D8"
+  },
+  "typography": {
+    "headings": {
+      "family": "Cormorant Garamond, serif",
+      "weights": ["400", "500", "600", "700"],
+      "style": "tracking-tight, high contrast display, elegant scale"
+    },
+    "body": {
+      "family": "Outfit, sans-serif",
+      "weights": ["300", "400", "500"],
+      "style": "tracking-normal, clean grotesque for readability"
+    }
+  },
+  "layout_and_spacing": {
+    "philosophy": "Generous spacing, overlapping elements, bento grids for galleries, asymmetrical editorial feel.",
+    "container_padding": "px-6 md:px-12 lg:px-24",
+    "section_spacing": "py-24 md:py-32",
+    "grid_system": "Bento for gallery, structural grayscale for hierarchy. Avoid perfect symmetry."
+  },
+  "components": {
+    "buttons": "Flat, sharp edges or minimal roundness (rounded-none or rounded-sm). Deep crimson background with light text, or transparent with dark border. Magnetic hover effect.",
+    "cards": "Cardless design or minimal 1px border (border-[#E5E0D8]). No heavy drop shadows. Use subtle nested padding.",
+    "badges": "Pill-shaped, thin borders, transparent background, classic editorial tag look for credentials.",
+    "navigation": "Sticky, crystal glassmorphism (backdrop-blur-xl bg-[#F5F2EB]/80) or solid background. MUST display links on desktop, no hamburger on desktop.",
+    "campaign_gallery": "Bento grid protocol: 12-col base, mixing col-span-4, col-span-8, row-span-2. Asymmetric layout with varied tile sizes."
+  },
+  "motion_and_interactions": {
+    "scroll": "Smooth scrolling (lenis). Parallax on floating painting elements to create depth.",
+    "hover": "Text color shifts, image scale up inside container mask, subtle y-axis lifts.",
+    "entrance": "Staggered fade-up and gentle translation for case studies and typography."
+  },
+  "media": {
+    "style": "Renaissance fragments, draped silk, statues. Deep contrast. Avoid full-screen 100% dark overlays. Use gradient masks for text visibility.",
+    "image_urls": [
+      {
+        "url": "https://images.pexels.com/photos/27667225/pexels-photo-27667225.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Renaissance painting fragment for hero or section transition",
+        "category": "hero_accent"
+      },
+      {
+        "url": "https://images.pexels.com/photos/31435546/pexels-photo-31435546.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Classical marble statue for About section or creative floating element",
+        "category": "about_accent"
+      },
+      {
+        "url": "https://images.pexels.com/photos/8793880/pexels-photo-8793880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Red draped silk for Campaign Gallery bento filler or backdrop",
+        "category": "gallery_texture"
+      },
+      {
+        "url": "https://images.pexels.com/photos/16397731/pexels-photo-16397731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Abstract oil painting for case study thumbnail 1 (Luco)",
+        "category": "portfolio_thumbnail_1"
+      },
+      {
+        "url": "https://images.pexels.com/photos/19681870/pexels-photo-19681870.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Woman in museum for case study thumbnail 2 (Moxie Beauty)",
+        "category": "portfolio_thumbnail_2"
+      }
+    ]
+  },
+  "accessibility": {
+    "contrast": "APCA contrast compliant. Text on images must have subtle gradient masks or text-shadow.",
+    "testing": "All interactive elements MUST have data-testid attributes (kebab-case, role-based)."
+  },
+  "instructions_to_main_agent": [
+    "Use JavaScript (.js) files for all React components, not .tsx.",
+    "Do not use generic fonts like Inter for headings. Use Cormorant Garamond.",
+    "The Hero section must be highly typographic and bold, steering clear of standard SaaS templates. Feature the three verticals clearly.",
+    "Implement the 'Selected Work' section as a structured narrative layout (Challenge -> Insight -> Strategy -> Result).",
+    "Build the 'Campaign Gallery' using a diverse Bento layout with overlapping or varying sizes.",
+    "Avoid purple/teal combinations or dark SaaS trends. Adhere strictly to the Renaissance fine-art luxury palette.",
+    "No traditional contact form; provide direct email, LinkedIn, and CV download links."
+  ]
+}
