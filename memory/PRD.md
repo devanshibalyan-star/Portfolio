@@ -31,6 +31,18 @@ Devanshi (4 yrs PMM, PhD in narrative & discourse, Product School certified, UGC
 - Scroll-reveal animations, magnetic button hovers, image hover scale, paper-grain texture
 - 100% pass on testing_agent_v3 (iteration_1.json)
 
+## Iteration 2 (2025-12) — Content + creative polish
+- Added 5th case study: **Lahori Zeera** (₹10 vs $10B narrative, with cursive takeaway line)
+- Added Roburae-style **"your problems / our solution"** comparison block inside Moxie Beauty case
+- Replaced Moxie image with a non-person skincare bottle photo
+- Casey-style **graphic poster tiles** in gallery (Archivo Black, bold lowercase): "glow like you mean it", "₹10 beats $10b", "simple. effective. made for you.", "confidence looks good on you"
+- Brand-identity swatch tile (Luco monogram + color chips)
+- Email updated to **devanshibalyan@gmail.com**; LinkedIn removed entirely
+- Location changed Bangalore → **Delhi · Remote**; Caveat script line: "Based in Delhi, available worldwide."
+- All em dashes purged from body copy (replaced with periods, commas, colons)
+- Added fonts: **Archivo Black** (graphic posters) + **Caveat** (script accents)
+- 100% pass on testing_agent_v3 (iteration_2.json)
+
 ## Backlog (P0 / P1 / P2)
 - **P0** Swap placeholder email + LinkedIn with Devanshi's real contact details
 - **P0** Replace Download CV alert with real PDF link once user uploads CV
