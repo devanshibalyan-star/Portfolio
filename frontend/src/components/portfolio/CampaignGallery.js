@@ -41,9 +41,9 @@ const tiles = [
     {
         kind: "poster",
         eyebrow: "Headline",
-        title: "₹10\nbeats $10B.",
-        sub: "Lahori Zeera · pricing wedge",
-        tag: "Case Study",
+        title: "trust\nbeats\nspeed.",
+        sub: "AI dev tools · positioning wedge",
+        tag: "Concept",
         bg: "#C98938",
         fg: "#1A1A1A",
         accent: "#7A1423",
@@ -54,7 +54,7 @@ const tiles = [
         label: "Launch Film · Hero Frame",
         sub: "Moxie Beauty",
         tag: "Real work",
-        img: "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=900&q=80",
+        img: "https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=600&w=900",
         span: "md:col-span-4",
     },
     {
@@ -123,8 +123,8 @@ const tiles = [
     },
     {
         kind: "text",
-        label: "Competitive teardown",
-        sub: "AI startup · 7 players · 1 gap",
+        label: "Competitive teardown\n7 players · 1 unowned axis",
+        sub: "Speed vs trust · positioning map",
         tag: "Concept",
         bg: "#F5F2EB",
         fg: "#1A1A1A",

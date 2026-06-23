@@ -2,7 +2,10 @@ import Nav from "@/components/portfolio/Nav";
 import Hero from "@/components/portfolio/Hero";
 import Marquee from "@/components/portfolio/Marquee";
 import About from "@/components/portfolio/About";
+import Testimonial from "@/components/portfolio/Testimonial";
 import SelectedWork from "@/components/portfolio/SelectedWork";
+import POV from "@/components/portfolio/POV";
+import Battlecard from "@/components/portfolio/Battlecard";
 import CampaignGallery from "@/components/portfolio/CampaignGallery";
 import Contact from "@/components/portfolio/Contact";
 import Footer from "@/components/portfolio/Footer";
@@ -15,7 +18,10 @@ export default function Home() {
             <Hero />
             <Marquee />
             <Reveal><About /></Reveal>
+            <Reveal><Testimonial /></Reveal>
             <Reveal><SelectedWork /></Reveal>
+            <Reveal><POV /></Reveal>
+            <Reveal><Battlecard /></Reveal>
             <Reveal><CampaignGallery /></Reveal>
             <Reveal><Contact /></Reveal>
             <Footer />

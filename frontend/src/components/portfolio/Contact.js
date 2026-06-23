@@ -34,7 +34,7 @@ export default function Contact() {
                         <span className="italic-accent text-[#C98938]">people repeat.</span>
                     </h2>
                     <p className="text-base md:text-lg leading-relaxed text-[#F5F2EB]/80 max-w-[52ch]">
-                        I’m open to senior PMM, brand strategy, and founder-marketer roles
+                        I’m open to PMM, brand strategy, and founder-marketer roles
                         at startups in AI, beauty &amp; wellness, and cosmetics. Full-time,
                         contract, or a 4-week launch sprint. I’ll match the brief.
                     </p>

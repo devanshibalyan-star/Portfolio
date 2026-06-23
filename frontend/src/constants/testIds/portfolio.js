@@ -36,6 +36,15 @@ export const PORTFOLIO = {
     gallery: "gallery-section",
     galleryTile: (i) => `gallery-tile-${i}`,
 
+    // POV
+    pov: "pov-section",
+
+    // Testimonial
+    testimonial: "testimonial-section",
+
+    // Battlecard
+    battlecard: "battlecard-section",
+
     // Contact
     contact: "contact-section",
     contactEmail: "contact-email-link",
