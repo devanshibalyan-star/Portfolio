@@ -17,15 +17,16 @@ export default function Testimonial() {
                 </div>
                 <blockquote className="md:col-span-9">
                     <p className="font-display text-3xl md:text-4xl lg:text-5xl leading-[1.15] text-[#1A1A1A] max-w-[34ch]">
-                        <span className="text-[#1A1A1A]/40 italic-accent">[A founder I’ve worked with will write something here.</span>
-                        <span className="text-[#1A1A1A]/40 italic-accent"> A real recommendation. Two sentences max. About judgement, not effort.]</span>
+                        Devanshi has driven numbers which seemed
+                        <span className="italic-accent text-[#7A1423]"> unattainable </span>
+                        before.
                     </p>
                     <footer className="mt-6 text-[12px] uppercase tracking-[0.22em] text-[#4A4A4A]">
-                        <span className="text-[#1A1A1A]/40">[Name]</span>
+                        <span className="text-[#1A1A1A]">Ishaan Teotia</span>
                         <span className="mx-2">·</span>
-                        <span className="text-[#1A1A1A]/40">[Role]</span>
+                        <span>Founder</span>
                         <span className="mx-2">·</span>
-                        <span className="text-[#1A1A1A]/40">[Company]</span>
+                        <span>Barghad Enterprises (Luco)</span>
                     </footer>
                 </blockquote>
             </div>

@@ -2,6 +2,7 @@ import { PORTFOLIO } from "@/constants/testIds";
 import { Mail, Download, ArrowUpRight } from "lucide-react";
 
 const EMAIL = "devanshibalyan@gmail.com";
+const CV_URL = "https://customer-assets.emergentagent.com/job_pmm-portfolio-2/artifacts/4engaec8_PMM.pdf";
 
 export default function Contact() {
     return (
@@ -54,15 +55,13 @@ export default function Contact() {
                             testId={PORTFOLIO.contactEmail}
                         />
                         <ContactRow
-                            href="#"
+                            href={CV_URL}
                             label="Curriculum Vitae"
                             value="Download PDF"
                             Icon={Download}
                             testId={PORTFOLIO.contactCv}
-                            onClick={(e) => {
-                                e.preventDefault();
-                                alert("CV will be linked here. Drop me an email and I'll send the latest copy.");
-                            }}
+                            external
+                            download
                         />
                     </ul>
 
@@ -76,12 +75,15 @@ export default function Contact() {
     );
 }
 
-function ContactRow({ href, label, value, Icon, testId, onClick }) {
+function ContactRow({ href, label, value, Icon, testId, onClick, external, download }) {
     return (
         <li>
             <a
                 href={href}
                 onClick={onClick}
+                target={external ? "_blank" : undefined}
+                rel={external ? "noopener noreferrer" : undefined}
+                download={download ? "Devanshi-Balyan-PMM.pdf" : undefined}
                 data-testid={testId}
                 className="group flex items-center justify-between gap-4 py-5 border-b border-[#F5F2EB]/15 hover:border-[#C98938] transition-colors"
             >
