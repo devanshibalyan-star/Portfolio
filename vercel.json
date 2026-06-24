@@ -1,7 +1,8 @@
 {
-  "buildCommand": "cd frontend && yarn install && yarn build",
+  "version": 2,
+  "buildCommand": "cd frontend && yarn install --frozen-lockfile && yarn build",
+  "installCommand": "echo skip-root-install",
   "outputDirectory": "frontend/build",
-  "installCommand": "echo 'install handled in buildCommand'",
   "framework": null,
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
